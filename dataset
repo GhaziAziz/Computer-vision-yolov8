@@ -1,1 +1,19 @@
+path: /content/drive/MyDrive/dataset  # Base dataset directory
+train: /content/drive/MyDrive/dataset/train  # Path to training images
+val: /content/drive/MyDrive/dataset/val  # Path to validation images
+test: test/images  # Path to test images (optional)
 
+nc: 10  # Number of classes
+names:
+  - Chilli Garlic Sauce 50Gx144
+  - Chilli Garlic Sauce 225Gx24
+  - Chilli Garlic Sauce 400Gx12
+  - Chilli Garlic Sauce 800Gx12
+  - Tomato Ketchup 50Gx144
+  - Tomato Ketchup 225Gx24
+  - Tomato Ketchup 400Gx12
+  - Tomato Ketchup 800Gx12
+  - TOMATO KETCHUP 3.25 KGX4 LSTD
+  - TOMATO KETCHUP 950GX12 LSTD
+
+# here is config.yaml file
